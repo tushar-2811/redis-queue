@@ -15,7 +15,7 @@ async function main() {
        console.log(response);
          
         // run the actual user code here
-        await new Promise((resolve) => setTimeout(resolve , 1000));
+        await new Promise((resolve) => setTimeout(resolve , 2000));
         // send it to the pub sub
 
         console.log("processed user submission");
